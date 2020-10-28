@@ -177,9 +177,7 @@ h2:after{
 /* meals*/
 /*-------------------------------------------------*/
 
-.section-meals{
-	padding: 0;
-}
+.section-meals{padding: 0;}
 
 .meals-showcase{
 	list-style:none;
@@ -221,9 +219,8 @@ h2:after{
 	margin-left: auto;
 	margin-right: auto;
 }
-section{
-	padding: 80px 0;
-}
+section{padding: 80px 0;}
+
 .box{
 	padding: 1%;
 }
@@ -233,13 +230,9 @@ section{
 /* How it works*/
 /*-------------------------------------------------*/
 
-.section-steps{
-	background-color: #f4f4f4;
-}
+.section-steps{background-color: #f4f4f4;}
 
-.steps-box{
-	margin-top: 30px;
-}
+.steps-box{margin-top: 30px;}
 
 .steps-box:first-child{
 	text-align: right;
@@ -253,9 +246,7 @@ section{
 
 }
 
-.app-screen{
-	width: 40%;
-}
+.app-screen{width: 40%;}
 
 .works-step{
 	margin-bottom: 50px;
@@ -294,9 +285,7 @@ section{
 /*-------------------------------------------------*/
 /* cities*/
 /*-------------------------------------------------*/
-.section-cities{
-	
-}
+
 .city-feature{
 	text-align: left;
 	margin-bottom: 5px;
@@ -358,9 +347,7 @@ cite img{
 /* Plans*/
 /*-------------------------------------------------*/
 
-.section-plans{
-	background-color: #f4f4f4;
-}
+.section-plans{background-color: #f4f4f4;}
 
 .plan-box{
 	background-color: #fff;
@@ -400,17 +387,11 @@ cite img{
 	font-weight: 300;
 }
 
-.plan-price-meal{
-	font-size: 80%;
-}
+.plan-price-meal{font-size: 80%;}
 
-.plan-box ul{
-	list-style: none;
-}
+.plan-box ul{list-style: none;}
 
-.plan-box ul li{
-	padding: 5px 0px;
-}
+.plan-box ul li{padding: 5px 0px;}
 
 /*-------------------------------------------------*/
 /* Plans*/
@@ -438,6 +419,89 @@ input[type=checkbox]{
 	margin: 10px 5px 10px 0px;
 }
 *:focus{outline: none;}
+
+/*-------------------------------------------------*/
+/* Footer*/
+/*-------------------------------------------------*/
+
+footer{
+	background-color: #333;
+	padding: 50px;
+}
+
+.footer-nav{
+	list-style: none;
+	float: left;
+}
+
+.social-links{
+	list-style: none;
+	float: right;
+}
+
+.footer-nav li,
+.social-links li{
+	display: inline-block;
+	margin-right: 20px;
+	}
+.footer-nav li:last-child,
+.social-links li:last-child{
+	margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+	text-decoration: none;
+	border: 0;
+	color: #888;
+	transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active{
+	color: #ddd;
+
+}
+
+.social-links li a:link,
+.social-links li a:visited{
+	font-size: 120%;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram{
+	transition: color 0.2s;
+}
+
+.ion-social-facebook:hover{
+	color: #3b6998;
+}
+
+.ion-social-twitter:hover{
+	color: #00aced;
+}
+
+.ion-social-googleplus:hover{
+	color: #dd4b39;
+}
+
+.ion-social-instagram:hover{
+	color: #517fa4;
+}
+
+footer p{
+	color: #888;
+	text-align: center;
+	font-size: 90%;
+	margin-top: 80px;
+}
+
+
+
 /*-------------------------------------------------*/
 /* Buttons*/
 /*-------------------------------------------------*/
